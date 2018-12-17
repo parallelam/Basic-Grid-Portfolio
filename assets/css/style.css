@@ -1,0 +1,58 @@
+.page-header {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align: left;
+	font-size: 28px;
+	border-bottom: 20px solid #dddddd;
+	color: #4aaaa5;
+	height: 60px;
+	padding: 20px;
+	line-height: 60px;
+	text-indent: 30px;
+}
+.container {
+	margin-top: 25px;
+	background-color: #ffffff;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	top: 0;
+	bottom: 0;
+	border: 4px solid #dddddd;
+	margin-bottom: 50px;
+}
+a {
+	text-decoration: none;
+	font-size: 22px;
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+.footer {
+	background-color: #666666;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 33px;
+	width: 100%;
+	overflow: hidden;
+	color: #dddddd;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+}
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	/* display: flex; */
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem;
+}
